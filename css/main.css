@@ -1,3 +1,27 @@
+/*****GENERAL STYLES*****/
+* {
+	box-sizing: border-box;
+}
+
+/*****LAYOUT STYLES*****/
+header {
+	width: 75vw;
+	margin: 25px auto;
+	background-color: tomato;
+}
+main {
+	width: 75vw;
+	margin: 25px auto;
+	background-color: yellow;
+	display: flow-root;
+}
+.col {
+	width: 50%;
+	float: left;
+	background-color: blue;
+}
+
+/*****TYPE STYLES*****/
 h1 {
 	font-size: 100px;
 }
