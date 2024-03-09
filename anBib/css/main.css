@@ -1,0 +1,17 @@
+h1 {
+	font-size: 73px;
+	color: whitesmoke;
+	text-align: center;
+}
+h3 {
+	font-size: 40px;
+	color: whitesmoke;
+	text-align: center;
+}
+img {
+	max-width: 80%;
+}
+body {
+	background-color: #342E37;
+	text-align: center;
+}
