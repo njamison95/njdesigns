@@ -2,26 +2,64 @@
 * {
 	box-sizing: border-box;
 }
+body{
+	background-color: #fff0f5;
+	color: #5B5161; /*makes bullet points same color as text*/
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	line-height: 40px;
+}
 
 /*****LAYOUT STYLES*****/
 header {
 	width: 75vw;
 	margin: 25px auto;
-	background-color: tomato;
 }
 main {
 	width: 75vw;
 	margin: 25px auto;
-	background-color: yellow;
 	display: flow-root;
 }
 .col {
-	width: 50%;
+	width: 40%;
 	float: left;
-	background-color: blue;
+	margin-left: 100px;
 }
 
 /*****TYPE STYLES*****/
 h1 {
-	font-size: 100px;
+	color: #5B5161;
+	font-family: "Gravitas One", serif;
+	font-size: 175px;
+	line-height: 1;
+	margin-bottom: 0px;
+	margin-top: 100px;
+}
+h2 {
+	color: #D07190;
+	font-family: "Gravitas One", serif;
+	font-size: 50px;
+	margin-bottom: 0px;
+	margin-top: 80px;
+}
+h3 {
+	color: #D07190;
+	font-family: "Gravitas One", serif;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+ul {
+	margin-top: 0px;
+}
+/*****PSEUDO-CLASSES*****/
+a {
+	text-decoration: none;
+	color: #5B5161;
+}
+a:visited {
+	color: #5B5161;
+}
+a:hover {
+	color: #D07190;
 }
