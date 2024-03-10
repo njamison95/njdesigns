@@ -1,3 +1,15 @@
+/*****LAYOUT STYLES*****/
+header {
+	width: 75vw;
+	margin: 25px auto;
+}
+main {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+}
+
+/*****TYPE STYLES*****/
 h1 {
 	font-size: 73px;
 	color: whitesmoke;
@@ -15,7 +27,7 @@ h3 {
   	font-weight: 400;
   	font-style: normal;
   	margin-top: 0px;
-  	margin-bottom: 30px;
+  	margin-bottom: 60px;
 }
 img {
 	max-width: 80%;

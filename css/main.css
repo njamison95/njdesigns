@@ -21,9 +21,11 @@ main {
 	display: flow-root;
 }
 .col {
-	width: 40%;
+	width: 45%;
 	float: left;
-	margin-left: 100px;
+}
+#two {
+	margin-left: 80px;
 }
 
 /*****TYPE STYLES*****/
@@ -38,9 +40,10 @@ h1 {
 h2 {
 	color: #D07190;
 	font-family: "Gravitas One", serif;
-	font-size: 50px;
+	font-size: 45px;
 	margin-bottom: 0px;
 	margin-top: 80px;
+	line-height: 1.2;
 }
 h3 {
 	color: #D07190;

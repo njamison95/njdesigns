@@ -1,6 +1,33 @@
+/*****GENERAL STYLES*****/
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff0f5;
+	text-align: center;
+}
+
+/*****LAYOUT STYLES*****/
+header {
+	width: 75vw;
+	margin: 25px auto;
+}
+main {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+}
+img {
+	max-width: 80%;
+}
+.back {
+	margin-bottom: 50px;
+}
+
+/*****TEXT STYLES*****/
 h1 {
 	font-size: 73px;
-	color: whitesmoke;
+	color: #342E37;
 	text-align: center;
 	font-family: "EB Garamond", serif;
 	font-weight: 400;
@@ -8,17 +35,10 @@ h1 {
 }
 h3 {
 	font-size: 40px;
-	color: whitesmoke;
+	color: #342E37;
 	text-align: center;
 	font-family: "EB Garamond", serif;
 	font-weight: 400;
-  	margin-top: 30px;
+  	margin-top: 0px;
   	margin-bottom: 80px;
-}
-img {
-	max-width: 80%;
-}
-body {
-	background-color: #342E37;
-	text-align: center;
 }
