@@ -7,7 +7,6 @@ body{
 	color: #5B5161; /*makes bullet points same color as text*/
 	font-size: 20px;
 	font-family: "Raleway", sans-serif;
-	line-height: 40px;
 }
 
 /*****LAYOUT STYLES*****/
@@ -31,26 +30,28 @@ main {
 /*****TYPE STYLES*****/
 h1 {
 	color: #5B5161;
-	font-family: "Gravitas One", serif;
-	font-size: 175px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 230px;
 	line-height: 1;
 	margin-bottom: 0px;
 	margin-top: 100px;
 }
 h2 {
-	color: #D07190;
-	font-family: "Gravitas One", serif;
-	font-size: 45px;
+	color: #5B5161;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 60px;
 	margin-bottom: 0px;
 	margin-top: 80px;
 	line-height: 1.2;
 }
 h3 {
 	color: #D07190;
-	font-family: "Gravitas One", serif;
-	font-size: 20px;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 40px;
 	margin-bottom: 0px;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 ul {
 	margin-top: 0px;

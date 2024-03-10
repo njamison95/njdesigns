@@ -26,14 +26,19 @@ main {
 
 /*****TEXT STYLES*****/
 h1 {
-	color: #D07190;
-	font-family: "Gravitas One", serif;
-	font-size: 100px;
+	color: #342E37;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 120px;
+	font-weight: 300;
+	margin-bottom: 0px;
+	margin-top: 100px;
 }
 h2 {
-	color: #342E37;
-	font-family: "Raleway", sans-serif;
-	font-size: 35px;
+	color: #D07190;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	margin-bottom: 100px;
 }
 p {
 	color: #342E37;

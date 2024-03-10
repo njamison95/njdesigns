@@ -1,7 +1,38 @@
+/*****GENERAL STYLES*****/
+* {
+	box-sizing: border-box;
+}
 img {
 	max-width: 80%;
 }
 body {
-	background-color: #342E37;
+	background-color: #fff0f5;
 	text-align: center;
+}
+
+/*****LAYOUT STYLES*****/
+header {
+	width: 75vw;
+	margin: 25px auto;
+}
+main {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+}
+/*****TEXT STYLES*****/
+h1 {
+	color: #342E37;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 120px;
+	font-weight: 300;
+	margin-bottom: 0px;
+	margin-top: 100px;
+}
+h2 {
+	color: #D07190;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	margin-bottom: 100px;
 }
