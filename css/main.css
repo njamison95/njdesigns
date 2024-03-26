@@ -4,9 +4,6 @@
 }
 body{
 	background-color: #fff0f5;
-	color: #5B5161; /*makes bullet points same color as text*/
-	font-size: 20px;
-	font-family: "Raleway", sans-serif;
 }
 
 /*****LAYOUT STYLES*****/
@@ -19,29 +16,134 @@ main {
 	margin: 25px auto;
 	display: flow-root;
 }
-.col {
-	width: 50%;
+.col1, .col2, .col3 {
+	width: 33%;
 	float: left;
+	display: flow-root;
+}
+.colReg {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+}
+.col4 {
+	width: 40vw;
+	margin-left: 100px;
+	float: left;
+	display: flow-root;
+}
+.col5 {
+	width: 40vw;
+	float: right;
+	margin-left: 50px;
+	margin-right: 100px;
+	display: flow-root;
+}
+img {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 100px;
 }
 
 /*****TYPE STYLES*****/
-h1 {
+.title {
 	color: #5B5161;
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 230px;
+	font-weight: bold;
+	margin-top: 80px;
+	margin-bottom: 50px;
 }
-h2 {
+h1 {
 	color: #5B5161;
 	font-family: "Josefin Sans", sans-serif;
-	font-weight: 300;
-	font-size: 60px;
+	font-size: 100px;
+	margin-top: 80px;
+	margin-bottom: 0px;
+	text-align: center;
 }
-h3 {
+.by {
 	color: #D07190;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+h2 {
+	color: #D07190;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+p {
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+  	font-style: normal;
+  	text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	width: 350px;
+	color: #fff0f5;
+	background-color: #D07190;
 	font-family: "Josefin Sans", sans-serif;
 	font-weight: 300;
 	font-size: 40px;
+	padding: 24px;
+	margin-right: 24px;
+	border: none;
 }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #D07190;
+  color: #fff0f5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  background-color: #fff0f5;
+  font-size: 20px;
+  padding: 20px 24px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content 
+	a:hover {
+		background-color: #5B5161;
+		color: #fff0f5;
+	}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #5B5161;
+}
+
+
 
 /*****PSEUDO-CLASSES*****/
 a {
