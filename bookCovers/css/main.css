@@ -2,12 +2,9 @@
 * {
 	box-sizing: border-box;
 }
-body{
+body {
 	background-color: #fff0f5;
 	text-align: center;
-}
-img {
-	max-width: 80%;
 }
 
 /*****LAYOUT STYLES*****/
@@ -16,12 +13,12 @@ header {
 	margin: 25px auto;
 }
 main {
-	width: 75vw;
+	width: 60vw;
 	margin: 25px auto;
 	display: flow-root;
 }
-.col {
-	width: 100%;
+img {
+	max-width: 100%;
 }
 
 /*****TEXT STYLES*****/
@@ -38,18 +35,5 @@ h2 {
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 45px;
 	font-weight: 300;
-}
-p {
-	color: #342E37;
-	font-family: "Raleway", sans-serif;
-	font-size: 20px;
-	margin-bottom: 100px;
-}
-.by {
-	color: #D07190;
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 45px;
-	font-weight: 300;
-	margin-top: 40px;
 	margin-bottom: 100px;
 }
